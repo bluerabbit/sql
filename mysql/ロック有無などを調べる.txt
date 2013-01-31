@@ -1,0 +1,2 @@
+-- 実行中のプロセスのSQL詳細を調べる
+mysql> SHOW ENGINE INNODB STATUS \G;

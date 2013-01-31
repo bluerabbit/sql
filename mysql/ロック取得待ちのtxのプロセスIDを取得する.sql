@@ -1,0 +1,6 @@
+SELECT
+  INNODB_TRX.trx_id
+FROM
+  INNODB_LOCK_WAITS
+    INNER JOIN INNODB_TRX
+      ON INNODB_LOCK_WAITS.blocking_trx_id = INNODB_TRX.trx_id;

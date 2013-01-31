@@ -1,0 +1,6 @@
+mysql> show global variables like 'innodb_lock_wait_timeout';
++--------------------------+-------+
+| Variable_name            | Value |
++--------------------------+-------+
+| innodb_lock_wait_timeout | 50    |
++--------------------------+-------+

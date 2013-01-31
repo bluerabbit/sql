@@ -1,0 +1,5 @@
+-- 実行中のプロセスを調べる
+mysql> show processlist;
+
+-- processlistを元にプロセスをkill
+mysql> kill [プロセスId];
